@@ -73,6 +73,7 @@ int main(int argc, char *argv[]) {
            // Save an image
             case 's':
                 saveImage(dst, status);
+                keyValue = -1;
                 break;
            // Grayscale (cvtColor)
             case 'g':
